@@ -1,0 +1,58 @@
+.content-exam{
+    width: 375px;
+    height: 100%;
+    background-color: lightgrey;
+    padding: 15px;
+
+}
+
+.heart-icon {
+    height:30px;
+    width: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-card{
+    width: 38%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.product-image{
+    display: flex;
+    justify-content: center;
+}
+.image-real{
+    width: 90%;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: space-between;
+}
+.icon-content{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-info p{
+    margin: 5px;
+}
+
+.content-exam>h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
